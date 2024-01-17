@@ -6,7 +6,6 @@ import { CharacterDetailType, Starship } from '../../types';
 
 describe('CharacterDetail Component', () => {
   const completeCharacter: CharacterDetailType = {
-    id: 1,
     name: 'Luke Skywalker',
     birth_year: '19 BBY',
     height: '172',
@@ -21,7 +20,6 @@ describe('CharacterDetail Component', () => {
   };
 
   const loadingCharacter: CharacterDetailType = {
-    id: 1,
     name: 'Luke Skywalker',
     birth_year: '19 BBY',
     height: '172',
