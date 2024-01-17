@@ -6,7 +6,6 @@ import CharacterListItem from '../CharacterListItem';
 
 describe('CharacterListItem Component', () => {
   const character: Character = {
-    id: 1,
     name: 'Luke Skywalker',
     birth_year: '19 BBY',
     height: '172',
