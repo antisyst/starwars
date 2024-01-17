@@ -1,0 +1,8 @@
+module.exports = {
+    preset: 'ts-jest/presets/js-with-ts',
+    testEnvironment: 'jsdom',
+    moduleNameMapper: {
+      '^@/(.*)$': '<rootDir>/$1',
+    },
+  };
+  
