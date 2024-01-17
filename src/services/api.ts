@@ -53,15 +53,6 @@ export const fetchCharacterByName = async (name: string) => {
   }
 };
 
-export const fetchCharacterById = async (id: number) => {
-  try {
-    const response = await fetch(`${API_BASE_URL}/people/${id}/`);
-    return response.json();
-  } catch (error: any) {
-    console.error(`Error fetching character by ID: ${error.message}`);
-    throw error;
-  }
-};
 
 export const fetchStarshipDetails = async (starshipUrl: string): Promise<StarshipDetail> => {
   try {
